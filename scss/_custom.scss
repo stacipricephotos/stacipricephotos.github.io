@@ -148,6 +148,11 @@ ABOUT PAGE
     margin-bottom: 5%;
 }
 
+.about .profile {
+    margin-bottom: 2%;
+    text-align: center;
+}
+
 /*##################################
 SERVICES PAGE
 ##################################*/
@@ -305,7 +310,7 @@ MOBILE MENU
     z-index: 9999;
     background: #333332;
     font-size: 0.9em;
-    font-weight: bold;
+    font-weight: normal;
     -webkit-box-shadow: inset -10px 0 6px -9px rgba(0, 0, 0, .7);
     -moz-box-shadow: inset -10px 0 6px -9px rgba(0, 0, 0, .7);
     box-shadow: inset -10px 0 6px -9px rgba(0, 0, 0, .7);
@@ -332,7 +337,7 @@ MOBILE MENU
 }
 
 .menu-btn {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: #292929;
 }
 
