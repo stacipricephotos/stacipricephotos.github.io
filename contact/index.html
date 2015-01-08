@@ -87,10 +87,10 @@
                     <div class="row">
                         <div class="large-12 columns">
                         <form action="//formspree.io/eric2025@gmail.com" method="POST">
-                            <input type="text" placeholder="Full Name" />
+                            <input type="text" name="name" placeholder="Full Name" />
                             <input type="email" name="_replyto" placeholder="Email" />
                             <label>How did you hear about us?
-                                <select>
+                                <select name="hear_from">
                                     <option value="google">Google</option>
                                     <option value="bing">Bing</option>
                                     <option value="yahoo">Yahoo</option>
@@ -98,7 +98,7 @@
                                     <option value="friendfamily">Friend/Family</option>
                                 </select>
                             </label>
-                            <textarea placeholder="Message"></textarea>
+                            <textarea rows="6" id="text" name="message" placeholder="Message"></textarea>
                             <input type="submit" class="button small radius" value="Send" />
                         </form>
                         </div>
